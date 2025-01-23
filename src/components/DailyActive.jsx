@@ -1,7 +1,7 @@
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { Users } from 'lucide-react';
-import data from '../assets/data.json';q
+import data from '../assets/data.json';
 
 const DailyActive = () => {
   const [dailyActiveUsers] = React.useState(data.data.dailyActiveUsers);
