@@ -7,7 +7,7 @@ const HomePage = () => {
     const navigate =  useNavigate()
   const buttons = [
     { icon: <LayoutDashboard size={24} />, text: 'Dashboard', link: '/dashboard', color: 'bg-blue-600 hover:bg-blue-700' },
-    { icon: <ClipboardList size={24} />, text: 'Task Management', link: '/task', color: 'bg-blue-500 hover:bg-blue-600' },
+    { icon: <ClipboardList size={24} />, text: 'Task Management', link: '/task-management', color: 'bg-blue-500 hover:bg-blue-600' },
     { icon: <Users size={24} />, text: 'User Management', link: '/user-management', color: 'bg-blue-400 hover:bg-blue-500' }
   ];
 
